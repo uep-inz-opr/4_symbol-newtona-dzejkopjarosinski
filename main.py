@@ -1,10 +1,16 @@
 import math
 from math import factorial
 
-def Newton():
-    n = int(input())
-    k = int(input())
+input = list(input())
+n = int(input[0])
+k = int(input[-1])
 
+print(n)
+print(k)
+
+
+
+def Newton(n,k):
 
     n_fact = math.factorial(n)
     k_fact = math.factorial(k)
@@ -14,4 +20,4 @@ def Newton():
     print(newt_pattern)
 
 
-Newton()
+Newton(n,k)
