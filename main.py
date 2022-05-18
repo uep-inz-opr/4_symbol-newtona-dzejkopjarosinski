@@ -5,9 +5,6 @@ input = list(input())
 n = int(input[0])
 k = int(input[-1])
 
-print(n)
-print(k)
-
 
 
 def Newton(n,k):
