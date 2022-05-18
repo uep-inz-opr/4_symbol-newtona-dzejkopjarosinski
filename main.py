@@ -16,7 +16,7 @@ def Newton(n,k):
     k_fact = math.factorial(k)
     nk_fact = math.factorial((n-k))
 
-    newt_pattern = n_fact/(k_fact*nk_fact)
+    newt_pattern = int(n_fact/(k_fact*nk_fact))
     print(newt_pattern)
 
 
